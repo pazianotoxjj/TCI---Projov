@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <title>Canal de Apoio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Canal de Apoio</h1>
+    <div class="link-nav">
+      <a href="checkin.html">Check-in Emocional</a> | 
+      <a href="mural.html">Mural e Feedback</a>
+    </div>
+
+    <form id="formApoio">
+      <textarea id="mensagem" placeholder="Escreva sua mensagem anônima..." required></textarea>
+      <label><input type="checkbox" id="querContato" /> Deseja que entremos em contato com você?</label>
+      <button type="submit">Enviar</button>
+    </form>
+
+    <div class="historico">
+      <h2>Mensagens Enviadas</h2>
+      <div id="listaApoio"></div>
+    </div>
+  </div>
+
+ <script src="script.js"></script>
+  
+</body>
+</html>

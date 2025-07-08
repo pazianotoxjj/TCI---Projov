@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <title>Mural e Feedback</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Mural e Feedback</h1>
+    <div class="link-nav">
+      <a href="checkin.html">Check-in Emocional</a> | 
+      <a href="canal.html">Canal de Apoio</a>
+    </div>
+
+    <form id="formMural">
+      <textarea id="mensagemMural" placeholder="Escreva sua mensagem..." required></textarea>
+      <label><input type="checkbox" id="publica" /> Desejo que minha mensagem apareça no mural</label>
+      <button type="submit">Postar</button>
+    </form>
+
+    <div class="historico">
+      <h2>Mensagens no Mural</h2>
+      <div id="listaMural"></div>
+    </div>
+  </div>
+
+ <script src="script.js"></script>
+
+</body>
+</html>

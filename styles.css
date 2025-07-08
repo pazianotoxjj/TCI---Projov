@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+body {
+  font-family: 'Inter', Arial, sans-serif;
+  margin: 30px;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: #eee;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  max-width: 700px;
+  margin: auto;
+  padding: 20px 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+
+h1 {
+  text-align: center;
+  color: #00b4db;
+  margin-bottom: 25px;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+  text-shadow: 0 0 5px #00b4db;
+}
+
+button {
+  margin-top: 10px;
+  padding: 12px 28px;
+  background: linear-gradient(45deg, #00b4db, #0083b0);
+  border: none;
+  color: white;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1rem;
+  box-shadow: 0 4px 15px rgba(0, 180, 219, 0.4);
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+  background: linear-gradient(45deg, #0083b0, #00b4db);
+  box-shadow: 0 6px 20px rgba(0, 180, 219, 0.6);
+}
+
+textarea, input[type="text"], input[type="email"] {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border-radius: 12px;
+  border: 1px solid #00b4db;
+  background: rgba(255, 255, 255, 0.15);
+  color: #eee;
+  resize: none;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+textarea:focus, input[type="text"]:focus, input[type="email"]:focus {
+  outline: none;
+  border-color: #00e0ff;
+  box-shadow: 0 0 10px #00e0ff;
+  background: rgba(255, 255, 255, 0.25);
+}
+
+.item {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 15px;
+  margin-bottom: 12px;
+  border-radius: 15px;
+  box-shadow: 0 2px 8px rgba(0, 180, 219, 0.15);
+  transition: background 0.3s ease;
+}
+
+.item:hover {
+  background: rgba(255, 255, 255, 0.25);
+}
+
+.reactions span {
+  cursor: pointer;
+  margin-right: 15px;
+  font-size: 24px;
+  user-select: none;
+  transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+.reactions span:hover {
+  transform: scale(1.4);
+  filter: drop-shadow(0 0 6px #00b4db);
+}
+
+.link-nav {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.link-nav a {
+  margin: 0 12px;
+  text-decoration: none;
+  color: #00b4db;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.link-nav a:hover {
+  text-decoration: underline;
+  color: #00e0ff;
+}

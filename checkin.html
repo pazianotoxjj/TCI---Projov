@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <title>Check-in Emocional</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Check-in Emocional</h1>
+    <div class="link-nav">
+      <a href="canal.html">Canal de Apoio</a> | 
+      <a href="mural.html">Mural e Feedback</a>
+    </div>
+
+    <form id="formCheckin">
+      <div class="emocoes">
+        <input type="radio" id="emoji1" name="emocao" value="😃" required />
+        <label for="emoji1">😃</label>
+
+        <input type="radio" id="emoji2" name="emocao" value="🙂" />
+        <label for="emoji2">🙂</label>
+
+        <input type="radio" id="emoji3" name="emocao" value="😐" />
+        <label for="emoji3">😐</label>
+
+        <input type="radio" id="emoji4" name="emocao" value="😟" />
+        <label for="emoji4">😟</label>
+
+        <input type="radio" id="emoji5" name="emocao" value="😢" />
+        <label for="emoji5">😢</label>
+      </div>
+
+      <textarea id="comentario" placeholder="Deseja comentar algo? (opcional)"></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+
+    <div class="historico">
+      <h2>📅 Histórico de Check-ins</h2>
+      <div id="listaCheckins"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
